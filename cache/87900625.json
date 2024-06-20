@@ -1,0 +1,697 @@
+{
+  "markets": {
+    "alembics": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "arms": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "axes": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "beer": {
+      "price": 8.788,
+      "open_price": 8.788,
+      "last_price": 8.788,
+      "average_price": 8.788,
+      "moving_average": 8.788,
+      "highest_bid": 8.788,
+      "high_price": 8.788,
+      "low_price": 8.788,
+      "volume": 4,
+      "volume_prev_12": 40,
+      "bid_volume_10": 38
+    },
+    "belts": {
+      "price": 9.5,
+      "open_price": 9.5,
+      "highest_bid": 9.5,
+      "high_price": 9.5,
+      "low_price": 9.5,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "blades": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "bread": {
+      "price": 9.576,
+      "open_price": 9.576,
+      "highest_bid": 9.576,
+      "high_price": 9.576,
+      "low_price": 9.576,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 28
+    },
+    "bricks": {
+      "price": 33.547,
+      "open_price": 33.547,
+      "highest_bid": 33.547,
+      "high_price": 33.547,
+      "low_price": 33.547,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 6
+    },
+    "butter": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "candles": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "carting": {
+      "price": 0.9,
+      "open_price": 0.9,
+      "last_price": 0.9,
+      "average_price": 0.9,
+      "moving_average": 0.9,
+      "lowest_ask": 0.9,
+      "high_price": 0.9,
+      "low_price": 0.9,
+      "volume": 14,
+      "volume_prev_12": 156,
+      "ask_volume_10": 9999986
+    },
+    "casks": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "cattle": {
+      "price": 268.5,
+      "open_price": 268.5,
+      "lowest_ask": 268.5,
+      "high_price": 268.5,
+      "low_price": 268.5,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "ask_volume_10": 2
+    },
+    "charcoal": {
+      "price": 6,
+      "open_price": 6,
+      "highest_bid": 6,
+      "high_price": 6,
+      "low_price": 6,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 2
+    },
+    "cheese": {
+      "price": 17.576,
+      "open_price": 17.576,
+      "highest_bid": 17.576,
+      "high_price": 17.576,
+      "low_price": 17.576,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 11
+    },
+    "clay": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "cloth": {
+      "price": 21.97,
+      "open_price": 21.97,
+      "highest_bid": 21.97,
+      "high_price": 21.97,
+      "low_price": 21.97,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 7
+    },
+    "coats": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "cookware": {
+      "price": 22.676,
+      "open_price": 21.597,
+      "last_price": 22.676,
+      "moving_average": 22.676,
+      "highest_bid": 21.597,
+      "lowest_ask": 29.823,
+      "high_price": 21.597,
+      "low_price": 21.597,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1,
+      "ask_volume_10": 1
+    },
+    "copper ingots": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "copper ore": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "cured fish": {
+      "price": 54.925,
+      "open_price": 54.925,
+      "highest_bid": 54.925,
+      "high_price": 54.925,
+      "low_price": 54.925,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 4
+    },
+    "cured meat": {
+      "price": 50,
+      "open_price": 50,
+      "last_price": 50,
+      "average_price": 50,
+      "moving_average": 53.693,
+      "highest_bid": 50,
+      "high_price": 50,
+      "low_price": 50,
+      "volume": 3,
+      "volume_prev_12": 5,
+      "bid_volume_10": 1
+    },
+    "donations": {
+      "price": 1,
+      "open_price": 1,
+      "lowest_ask": 1,
+      "high_price": 1,
+      "low_price": 1,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "ask_volume_10": 100000
+    },
+    "dye": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "dyed cloth": {
+      "price": 15.318,
+      "open_price": 15.318,
+      "last_price": 15.318,
+      "average_price": 15.318,
+      "moving_average": 23.803,
+      "highest_bid": 13.511,
+      "lowest_ask": 15.318,
+      "high_price": 15.318,
+      "low_price": 15.318,
+      "volume": 3,
+      "volume_prev_12": 60,
+      "bid_volume_10": 5,
+      "ask_volume_10": 3
+    },
+    "firewood": {
+      "price": 12.605,
+      "open_price": 12.605,
+      "last_price": 12.605,
+      "average_price": 12.605,
+      "moving_average": 12.591,
+      "highest_bid": 12.591,
+      "lowest_ask": 12.605,
+      "high_price": 12.605,
+      "low_price": 12.605,
+      "volume": 5,
+      "volume_prev_12": 76,
+      "bid_volume_10": 15,
+      "ask_volume_10": 2
+    },
+    "fish": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "flax fibres": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "flax plants": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "flour": {
+      "price": 25.666,
+      "open_price": 25.666,
+      "highest_bid": 25.666,
+      "high_price": 25.666,
+      "low_price": 25.666,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "furniture": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "garments": {
+      "price": 50,
+      "open_price": 50,
+      "last_price": 50,
+      "average_price": 50,
+      "moving_average": 50,
+      "highest_bid": 50,
+      "high_price": 50,
+      "low_price": 50,
+      "volume": 9,
+      "volume_prev_12": 93,
+      "bid_volume_10": 2
+    },
+    "glass": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "glassware": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "gold bars": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "gold ore": {
+      "price": 310.464,
+      "open_price": 310.464,
+      "highest_bid": 310.464,
+      "high_price": 310.464,
+      "low_price": 310.464,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "grain": {
+      "price": 17.576,
+      "open_price": 17.576,
+      "last_price": 17.576,
+      "average_price": 17.576,
+      "moving_average": 17.576,
+      "highest_bid": 17.576,
+      "high_price": 17.576,
+      "low_price": 17.576,
+      "volume": 4,
+      "volume_prev_12": 36,
+      "bid_volume_10": 35
+    },
+    "grindstones": {
+      "price": 303.028,
+      "open_price": 303.028,
+      "highest_bid": 303.028,
+      "high_price": 303.028,
+      "low_price": 303.028,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "ham": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "harnesses": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "herbs": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "hides": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "honey": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "hop beer": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "iron ore": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "jewellery": {
+      "price": 65.785,
+      "open_price": 65.785,
+      "last_price": 62.499,
+      "moving_average": 62.499,
+      "highest_bid": 65.785,
+      "lowest_ask": 83.725,
+      "high_price": 65.785,
+      "low_price": 65.785,
+      "volume": 0,
+      "volume_prev_12": 8,
+      "bid_volume_10": 1,
+      "ask_volume_10": 1
+    },
+    "labour": {
+      "price": 0.759,
+      "open_price": 0.759,
+      "last_price": 0.759,
+      "average_price": 0.759,
+      "moving_average": 0.759,
+      "lowest_ask": 0.759,
+      "high_price": 0.759,
+      "low_price": 0.759,
+      "volume": 193,
+      "volume_prev_12": 2084,
+      "ask_volume_10": 148
+    },
+    "lead bars": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "lead ore": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "leather": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "light armor": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "limestone": {
+      "price": 55.912,
+      "open_price": 55.912,
+      "highest_bid": 55.912,
+      "high_price": 55.912,
+      "low_price": 55.912,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 6
+    },
+    "lodging": {
+      "price": 11.477,
+      "open_price": 11.477,
+      "highest_bid": 11.477,
+      "high_price": 11.477,
+      "low_price": 11.477,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 12
+    },
+    "lumber": {
+      "price": 16,
+      "open_price": 16,
+      "highest_bid": 16,
+      "high_price": 16,
+      "low_price": 16,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "malt": {
+      "price": 17.277,
+      "open_price": 7.184,
+      "last_price": 17.277,
+      "moving_average": 17.277,
+      "lowest_ask": 7.184,
+      "high_price": 7.184,
+      "low_price": 7.184,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "ask_volume_10": 2
+    },
+    "manure": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "meat": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "medicine": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "milk": {
+      "price": 4.5,
+      "open_price": 4.5,
+      "highest_bid": 4.5,
+      "high_price": 4.5,
+      "low_price": 4.5,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 2
+    },
+    "mouldboards": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "nails": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "nets": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "ox power": {
+      "price": 8,
+      "open_price": 8,
+      "highest_bid": 8,
+      "high_price": 8,
+      "low_price": 8,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 2
+    },
+    "pasties": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "pickaxes": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "pies": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "ploughs": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "protection": {
+      "price": 4.572,
+      "open_price": 4.572,
+      "last_price": 4.572,
+      "average_price": 4.572,
+      "moving_average": 4.741,
+      "highest_bid": 4.441,
+      "high_price": 4.572,
+      "low_price": 4.572,
+      "volume": 2,
+      "volume_prev_12": 24,
+      "bid_volume_10": 3
+    },
+    "resin": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "rope": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "sails": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "salt": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "scythes": {
+      "price": 40.327,
+      "open_price": 40.327,
+      "highest_bid": 40.327,
+      "high_price": 40.327,
+      "low_price": 40.327,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "silver bars": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "slaked lime": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "spirits": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "steel ingots": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "stockfish": {
+      "price": 153.997,
+      "open_price": 153.997,
+      "highest_bid": 153.997,
+      "high_price": 153.997,
+      "low_price": 153.997,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "swords": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "tar": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "thread": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "tiles": {
+      "price": 22.365,
+      "open_price": 22.365,
+      "highest_bid": 22.365,
+      "high_price": 22.365,
+      "low_price": 22.365,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 6
+    },
+    "timber": {
+      "price": 8.167,
+      "open_price": 8.167,
+      "last_price": 8.167,
+      "average_price": 8.167,
+      "moving_average": 10.555,
+      "lowest_ask": 8.167,
+      "high_price": 8.167,
+      "low_price": 8.167,
+      "volume": 15,
+      "volume_prev_12": 119,
+      "ask_volume_10": 7
+    },
+    "tools": {
+      "price": 43.792,
+      "open_price": 43.792,
+      "last_price": 43.792,
+      "average_price": 43.792,
+      "moving_average": 43.656,
+      "highest_bid": 43.792,
+      "high_price": 43.792,
+      "low_price": 43.792,
+      "volume": 1,
+      "volume_prev_12": 4,
+      "bid_volume_10": 7
+    },
+    "wax": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "wheels": {
+      "price": 48,
+      "open_price": 48,
+      "highest_bid": 48,
+      "high_price": 48,
+      "low_price": 48,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 2
+    },
+    "windows": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "wine": {
+      "price": 8.121,
+      "open_price": 8.121,
+      "highest_bid": 8.121,
+      "high_price": 8.121,
+      "low_price": 8.121,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "wool": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    },
+    "wrought iron": {
+      "price": 22.791,
+      "open_price": 22.791,
+      "highest_bid": 22.791,
+      "high_price": 22.791,
+      "low_price": 22.791,
+      "volume": 0,
+      "volume_prev_12": 0,
+      "bid_volume_10": 1
+    },
+    "yarn": {
+      "price": 0,
+      "volume": 0,
+      "volume_prev_12": 0
+    }
+  },
+  "_ts": 1718903404159578
+}

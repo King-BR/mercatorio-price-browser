@@ -58,13 +58,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 if (itemData) {
                     const row = document.createElement('tr');
-                    row.innerHTML = `<td>${town.name}</td><td>${itemData.price}</td><td>${itemData.open_price}</td><td>${itemData.last_price}</td><td>${itemData.moving_average}</td><td>${itemData.highest_bid}</td><td>${itemData.high_price}</td><td>${itemData.low_price}</td><td>${itemData.volume}</td><td>${itemData.volume_prev_12}</td><td>${itemData.bid_volume_10}</td>`;
+                    row.innerHTML = `<td>${town.name}</td><td>${replaceZeroWithEmpty(itemData.price)}</td><td>${replaceZeroWithEmpty(itemData.open_price)}</td><td>${replaceZeroWithEmpty(itemData.last_price)}</td><td>${replaceZeroWithEmpty(itemData.average_price)}</td><td>${replaceZeroWithEmpty(itemData.moving_average)}</td><td>${replaceZeroWithEmpty(itemData.highest_bid)}</td><td>${replaceZeroWithEmpty(itemData.lowest_ask)}</td><td>${replaceZeroWithEmpty(itemData.high_price)}</td><td>${replaceZeroWithEmpty(itemData.low_price)}</td><td>${replaceZeroWithEmpty(itemData.volume)}</td><td>${replaceZeroWithEmpty(itemData.volume_prev_12)}</td><td>${replaceZeroWithEmpty(itemData.bid_volume_10)}</td>`;
                     tableBody.appendChild(row);
                 }
             } catch (error) {
                 console.error(`Error fetching data for town ID ${town.id}:`, error);
             }
         }
+    };
+
+    // Helper function to replace zero with empty string
+    const replaceZeroWithEmpty = (value) => {
+        return value === 0 ? '' : value;
     };
 
     // Function to sort table data

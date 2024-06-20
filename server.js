@@ -43,13 +43,45 @@ async function fetchAndCacheTownData(townId) {
 
         const marketData = await response.json();
 
+        // Convert relevant properties to float
+        for (const itemName in marketData.markets) {
+            const itemData = marketData.markets[itemName];
+            convertStringToFloat(itemData, [
+                'price',
+                'open_price',
+                'last_price',
+                'average_price',
+                'moving_average',
+                'highest_bid',
+                'low_price',
+                'high_price',
+                'volume',
+                'volume_prev_12',
+                'bid_volume_10',
+                'lowest_ask'
+            ]);
+        }
+
         // Write the data to a cache file
         await fs.writeFile(cacheFilePath, JSON.stringify(marketData, null, 2));
         console.log(`Data for town ID ${townId} cached successfully.`);
+
+        return marketData;
     } catch (error) {
         console.error(`Error caching data for town ID ${townId}:`, error.message);
+        throw error; // Re-throw the error to handle it elsewhere if needed
     }
 }
+
+// Helper function to convert relevant properties from string to float
+function convertStringToFloat(obj, properties) {
+    properties.forEach(prop => {
+        if (typeof obj[prop] === 'string') {
+            obj[prop] = parseFloat(obj[prop]);
+        }
+    });
+}
+
 // Endpoint to trigger cache update for all towns
 app.get('/update-cache', async (req, res) => {
     try {
@@ -89,7 +121,6 @@ app.get('/update-cache', async (req, res) => {
     }
 });
 
-
 // Serve cached data
 app.get('/data/:townId', async (req, res) => {
     const townId = req.params.townId;
@@ -101,18 +132,38 @@ app.get('/data/:townId', async (req, res) => {
         const now = new Date();
         if ((now - new Date(stats.mtime)) < CACHE_DURATION) {
             const data = await fs.readFile(cacheFilePath, 'utf-8');
-            return res.json(JSON.parse(data));
+            const parsedData = JSON.parse(data);
+
+            // Convert relevant properties to float if they are not already
+            for (const itemName in parsedData.markets) {
+                const itemData = parsedData.markets[itemName];
+                convertStringToFloat(itemData, [
+                    'price',
+                    'open_price',
+                    'last_price',
+                    'average_price',
+                    'moving_average',
+                    'highest_bid',
+                    'lowest_ask',
+                    'low_price',
+                    'high_price',
+                    'volume',
+                    'volume_prev_12',
+                    'bid_volume_10'
+                ]);
+            }
+
+            return res.json(parsedData);
         }
     } catch (error) {
-        // If the file doesn't exist or is expired, fetch and cache new data
+        // If there's an error in reading the file or parsing JSON, log it
         console.error(`Cache file error for town ID ${townId}:`, error.message);
     }
 
     // If cache is outdated or missing, update it and serve the data
     try {
-        await fetchAndCacheTownData(townId);
-        const data = await fs.readFile(cacheFilePath, 'utf-8');
-        res.json(JSON.parse(data));
+        const freshData = await fetchAndCacheTownData(townId);
+        res.json(freshData);
     } catch (error) {
         console.error(`Error fetching data for town ID ${townId}:`, error.message);
         res.status(500).send("Error fetching data.");
