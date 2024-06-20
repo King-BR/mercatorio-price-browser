@@ -79,6 +79,12 @@ thead tr {
   color: white;
 }
 
+/* Updated: Hover effect for table headers */
+thead th:hover {
+  background-color: white;
+  color: #007BFF;
+}
+
 th,
 td {
   padding: 12px 15px;
@@ -94,9 +100,11 @@ tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
+/*
 tr:hover {
   background-color: #f1f1f1;
 }
+*/
 
 /* Responsive styling */
 @media (max-width: 768px) {
@@ -106,32 +114,32 @@ tr:hover {
   th,
   td,
   tr {
-      display: block;
+    display: block;
   }
 
   tr {
-      margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 
   th {
-      background-color: #007BFF;
-      color: white;
-      padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
   }
 
   td {
-      text-align: right;
-      padding: 10px;
-      position: relative;
+    text-align: right;
+    padding: 10px;
+    position: relative;
   }
 
   td::before {
-      content: attr(data-label);
-      position: absolute;
-      left: 0;
-      width: 50%;
-      padding: 10px;
-      font-weight: bold;
-      background-color: #f1f1f1;
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f1f1f1;
   }
 }

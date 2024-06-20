@@ -3,40 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercatorio Market Data</title>
+    <title>Market Data Table</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Mercatorio Market Data</h1>
-        <div>
-            <!-- Removed user and auth inputs -->
+        <h1>Market Data Table</h1>
+        <div class="controls">
+            <select id="item"></select>
             <button id="fetchData">Fetch Data</button>
         </div>
-
-        <div>
-            <label for="item">Select Item:</label>
-            <select id="item"></select>
-        </div>
-
         <table id="marketTable">
             <thead>
                 <tr>
-                    <th data-sort="town">Town Name</th>
-                    <th data-sort="price">Price</th>
-                    <th data-sort="open_price">Open Price</th>
-                    <th data-sort="last_price">Last Price</th>
-                    <th data-sort="moving_average">Moving Average</th>
-                    <th data-sort="highest_bid">Highest Bid</th>
-                    <th data-sort="high_price">High Price</th>
-                    <th data-sort="low_price">Low Price</th>
-                    <th data-sort="volume">Volume</th>
-                    <th data-sort="volume_prev_12">Volume Previous 12 Turns</th>
-                    <th data-sort="bid_volume_10">Bid Volume 10%</th>
+                    <th id="townName">Town Name</th>
+                    <th id="price">Price</th>
+                    <th id="openPrice">Open Price</th>
+                    <th id="lastPrice">Last Price</th>
+                    <th id="movingAverage">Moving Average</th>
+                    <th id="highestBid">Highest Bid</th>
+                    <th id="highPrice">High Price</th>
+                    <th id="lowPrice">Low Price</th>
+                    <th id="volume">Volume</th>
+                    <th id="volumePrev12">Volume Previous 12 Turns</th>
+                    <th id="bidVolume10">Bid Volume 10%</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Data rows will be inserted here dynamically -->
+                <!-- Data will be populated here -->
             </tbody>
         </table>
     </div>
