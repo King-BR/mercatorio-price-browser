@@ -1,0 +1,137 @@
+/* Basic reset to remove default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the body */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* Center the container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  max-width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead tr {
+  background-color: #007BFF;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+      display: block;
+  }
+
+  tr {
+      margin-bottom: 15px;
+  }
+
+  th {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px;
+  }
+
+  td {
+      text-align: right;
+      padding: 10px;
+      position: relative;
+  }
+
+  td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding: 10px;
+      font-weight: bold;
+      background-color: #f1f1f1;
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercatorio Market Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mercatorio Market Data</h1>
+        <div>
+            <!-- Removed user and auth inputs -->
+            <button id="fetchData">Fetch Data</button>
+        </div>
+
+        <div>
+            <label for="item">Select Item:</label>
+            <select id="item"></select>
+        </div>
+
+        <table id="marketTable">
+            <thead>
+                <tr>
+                    <th data-sort="town">Town Name</th>
+                    <th data-sort="price">Price</th>
+                    <th data-sort="open_price">Open Price</th>
+                    <th data-sort="last_price">Last Price</th>
+                    <th data-sort="moving_average">Moving Average</th>
+                    <th data-sort="highest_bid">Highest Bid</th>
+                    <th data-sort="high_price">High Price</th>
+                    <th data-sort="low_price">Low Price</th>
+                    <th data-sort="volume">Volume</th>
+                    <th data-sort="volume_prev_12">Volume Previous 12 Turns</th>
+                    <th data-sort="bid_volume_10">Bid Volume 10%</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data rows will be inserted here dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
