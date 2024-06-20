@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Market Data Table</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>Market Data Table</h1>
-        <div class="controls">
-            <select id="item"></select>
-            <button id="fetchData">Fetch Data</button>
-        </div>
-        <table id="marketTable">
-            <thead>
-                <tr>
-                    <th id="townName">Town Name</th>
-                    <th id="price">Price</th>
-                    <th id="openPrice">Open Price</th>
-                    <th id="lastPrice">Last Price</th>
-                    <th id="averagePrice">Average Price</th>
-                    <th id="movingAverage">Moving Average</th>
-                    <th id="highestBid">Highest Bid</th>
-                    <th id="lowestAsk">Lowest Ask</th>
-                    <th id="highPrice">High Price</th>
-                    <th id="lowPrice">Low Price</th>
-                    <th id="volume">Volume</th>
-                    <th id="volumePrev12">Volume Previous 12 Turns</th>
-                    <th id="bidVolume10">Bid Volume 10%</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Data will be populated here -->
-            </tbody>
-        </table>
+      <h1>Market Data Table</h1>
+      <div class="controls">
+        <select id="item"></select>
+        <button id="fetchData">Fetch Data</button>
+      </div>
+      <table id="marketTable">
+        <thead>
+          <tr>
+            <th id="townName">Town Name</th>
+            <th id="price">Price</th>
+            <th id="openPrice">Open Price</th>
+            <th id="lastPrice">Last Price</th>
+            <th id="averagePrice">Average Price</th>
+            <th id="movingAverage">Moving Average</th>
+            <th id="highestBid">Highest Bid</th>
+            <th id="lowestAsk">Lowest Ask</th>
+            <th id="highPrice">High Price</th>
+            <th id="lowPrice">Low Price</th>
+            <th id="volume">Volume</th>
+            <th id="volumePrev12">Volume Previous 12 Turns</th>
+            <th id="bidVolume10">Bid Volume 10%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data will be populated here -->
+        </tbody>
+      </table>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

@@ -131,19 +131,19 @@
       "ask_volume_10": 4
     },
     "carting": {
-      "price": 0.895,
+      "price": 0.9,
       "open_price": 0.895,
-      "last_price": 0.895,
+      "last_price": 0.9,
       "average_price": 0.895,
       "moving_average": 0.724,
       "highest_bid": 0.895,
       "lowest_ask": 0.9,
-      "high_price": 0.895,
+      "high_price": 0.9,
       "low_price": 0.895,
-      "volume": 271,
+      "volume": 278,
       "volume_prev_12": 3356,
       "bid_volume_10": 20,
-      "ask_volume_10": 10000000
+      "ask_volume_10": 9999993
     },
     "casks": {
       "price": 5.041,
@@ -1171,5 +1171,5 @@
       "ask_volume_10": 1
     }
   },
-  "_ts": 1718904557263565
+  "_ts": 1718905380710016
 }

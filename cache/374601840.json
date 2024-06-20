@@ -633,10 +633,10 @@
       "lowest_ask": 2.727,
       "high_price": 2.727,
       "low_price": 2.571,
-      "volume": 4684,
+      "volume": 4693,
       "volume_prev_12": 51824,
       "bid_volume_10": 22,
-      "ask_volume_10": 38
+      "ask_volume_10": 29
     },
     "lead bars": {
       "price": 10,
@@ -1150,5 +1150,5 @@
       "ask_volume_10": 20
     }
   },
-  "_ts": 1718905139465407
+  "_ts": 1718905456952533
 }

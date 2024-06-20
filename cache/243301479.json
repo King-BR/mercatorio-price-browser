@@ -38,19 +38,17 @@
       "ask_volume_10": 2
     },
     "beer": {
-      "price": 3.1,
+      "price": 3.019,
       "open_price": 3.1,
-      "last_price": 3.1,
-      "average_price": 3.1,
+      "last_price": 3.019,
+      "average_price": 3.099,
       "moving_average": 3.475,
-      "highest_bid": 3.1,
       "lowest_ask": 3.25,
       "high_price": 3.1,
-      "low_price": 3.1,
-      "volume": 143,
+      "low_price": 3.019,
+      "volume": 150,
       "volume_prev_12": 1596,
-      "bid_volume_10": 7,
-      "ask_volume_10": 100
+      "ask_volume_10": 93
     },
     "belts": {
       "price": 11.211,
@@ -79,18 +77,16 @@
       "ask_volume_10": 1
     },
     "bread": {
-      "price": 2.369,
+      "price": 2.25,
       "open_price": 2.369,
-      "last_price": 2.369,
-      "average_price": 2.369,
+      "last_price": 2.25,
+      "average_price": 2.366,
       "moving_average": 2.61,
-      "highest_bid": 2.282,
       "lowest_ask": 2.369,
       "high_price": 2.369,
-      "low_price": 2.369,
-      "volume": 249,
+      "low_price": 2.25,
+      "volume": 254,
       "volume_prev_12": 2942,
-      "bid_volume_10": 5,
       "ask_volume_10": 55
     },
     "bricks": {
@@ -435,18 +431,18 @@
       "ask_volume_10": 2
     },
     "garments": {
-      "price": 22.96,
+      "price": 22.759,
       "open_price": 22.96,
-      "last_price": 22.96,
-      "average_price": 22.96,
+      "last_price": 22.759,
+      "average_price": 22.951,
       "moving_average": 22.587,
-      "highest_bid": 22.82,
+      "highest_bid": 21.428,
       "lowest_ask": 22.96,
       "high_price": 22.96,
-      "low_price": 22.96,
-      "volume": 112,
+      "low_price": 22.759,
+      "volume": 117,
       "volume_prev_12": 744,
-      "bid_volume_10": 6,
+      "bid_volume_10": 1,
       "ask_volume_10": 16
     },
     "glass": {
@@ -494,19 +490,17 @@
       "ask_volume_10": 1
     },
     "grain": {
-      "price": 2.75,
+      "price": 2.7,
       "open_price": 2.75,
-      "last_price": 2.75,
-      "average_price": 2.75,
+      "last_price": 2.7,
+      "average_price": 2.749,
       "moving_average": 2.92,
-      "highest_bid": 2.7,
       "lowest_ask": 2.75,
       "high_price": 2.75,
-      "low_price": 2.75,
-      "volume": 297,
+      "low_price": 2.7,
+      "volume": 299,
       "volume_prev_12": 3073,
-      "bid_volume_10": 2,
-      "ask_volume_10": 49
+      "ask_volume_10": 47
     },
     "grindstones": {
       "price": 400,
@@ -1164,5 +1158,5 @@
       "ask_volume_10": 11
     }
   },
-  "_ts": 1718905120480615
+  "_ts": 1718905301656081
 }
